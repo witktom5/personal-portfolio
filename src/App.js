@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
+import Grid from './components/Grid';
+import Header from './components/layout/Header';
+import ProjectsSection from './components/layout/ProjectsSection';
+import Footer from './components/layout/Footer';
+import { saveTheme } from './utils/theme';
 
 function App() {
+  useEffect(() => {
+    saveTheme();
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid>
+      <Header />
+      <ProjectsSection />
+      <Footer />
+    </Grid>
   );
 }
 
