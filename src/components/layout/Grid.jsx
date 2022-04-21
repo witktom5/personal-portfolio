@@ -13,7 +13,12 @@ function Grid({ children }) {
 
   return (
     <div className='drawer drawer-end'>
-      <input id='drawer-page' type='checkbox' className='drawer-toggle' />
+      <input
+        id='drawer-page'
+        type='checkbox'
+        className='drawer-toggle hidden'
+        aria-hidden='true'
+      />
       <div className='drawer-content flex flex-col'>
         <div className='bg-base-200 flex justify-center fixed right-4 w-screen z-10 opacity-95'>
           <div className='navbar w-full lg:w-3/5'>

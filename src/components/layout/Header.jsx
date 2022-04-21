@@ -2,7 +2,7 @@ import photo from '../../assets/fbzdj.jpg';
 
 function Header() {
   return (
-    <div className='flex justify-center mt-navbar pb-72 lg:pb-52 2xl:pb-72 3xl:pb-80 wave-1'>
+    <div className='flex justify-center mt-navbar pb-72 lg:pb-52 2xl:pb-72 3xl:pb-80 wave wave-1'>
       <div className='hero pt-10 w-full lg:w-4/5  '>
         <header
           id='header'
@@ -19,9 +19,9 @@ function Header() {
                 Tomasz Witkowski
               </h1>
             </div>
-            <h3 className='text-4xl font-bold text-center lg:text-left'>
+            <h2 className='text-4xl font-bold text-center lg:text-left'>
               Web Developer
-            </h3>
+            </h2>
             <div className='flex justify-center lg:justify-start py-8'>
               <p className='w-4/5'>
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut

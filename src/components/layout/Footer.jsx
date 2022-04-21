@@ -3,18 +3,10 @@ function Footer() {
     <footer className='mt-auto p-10 bg-base-200 flex justify-center'>
       <div className='w-full lg:w-4/5 text-base-content footer justify-between lg:justify-around'>
         <div>
-          <span className='footer-title'>Services</span>
-          <a className='link link-hover'>Branding</a>
-          <a className='link link-hover'>Design</a>
-          <a className='link link-hover'>Marketing</a>
-          <a className='link link-hover'>Advertisement</a>
-        </div>
-        <div>
-          <span className='footer-title'>Company</span>
-          <a className='link link-hover'>About us</a>
+          <span className='footer-title'>TW Webdev Portfolio</span>
+          <a className='link link-hover'>Projects</a>
+          <a className='link link-hover'>About</a>
           <a className='link link-hover'>Contact</a>
-          <a className='link link-hover'>Jobs</a>
-          <a className='link link-hover'>Press kit</a>
         </div>
         <div>
           <span className='footer-title'>Social</span>
