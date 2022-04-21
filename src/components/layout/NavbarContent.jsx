@@ -2,7 +2,7 @@ function NavbarContent() {
   return (
     <>
       <li>
-        <a href='/' className='btn btn-ghost rounded-lg'>
+        <a href='#projects' className='btn btn-ghost rounded-lg'>
           Projects
         </a>
       </li>

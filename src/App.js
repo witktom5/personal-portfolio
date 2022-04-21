@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
-import Grid from './components/Grid';
+import Grid from './components/layout/Grid';
 import Header from './components/layout/Header';
-import ProjectsSection from './components/layout/ProjectsSection';
+import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 import Footer from './components/layout/Footer';
 import { saveTheme } from './utils/theme';
 
@@ -11,8 +11,10 @@ function App() {
   });
   return (
     <Grid>
-      <Header />
-      <ProjectsSection />
+      <main>
+        <Header />
+        <ProjectsSection />
+      </main>
       <Footer />
     </Grid>
   );

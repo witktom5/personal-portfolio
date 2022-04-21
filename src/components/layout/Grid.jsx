@@ -1,5 +1,5 @@
-import NavbarContent from './layout/NavbarContent';
-import { setTheme } from '../utils/theme';
+import NavbarContent from './NavbarContent';
+import { setTheme } from '../../utils/theme';
 import { FaRegLightbulb } from 'react-icons/fa';
 
 function Grid({ children }) {
@@ -15,9 +15,9 @@ function Grid({ children }) {
     <div className='drawer drawer-end'>
       <input id='drawer-page' type='checkbox' className='drawer-toggle' />
       <div className='drawer-content flex flex-col'>
-        <div className='bg-base-300 flex justify-center fixed right-4 w-screen'>
+        <div className='bg-base-200 flex justify-center fixed right-4 w-screen z-10 opacity-95'>
           <div className='navbar w-full lg:w-3/5'>
-            <div className='flex-1 px-2 mx-2'>Navbar Title</div>
+            <div className='flex-1 px-2 mx-2'>Portfolio</div>
             <div className='flex-none hidden md:block'>
               <ul className='menu menu-horizontal'>
                 <NavbarContent />
