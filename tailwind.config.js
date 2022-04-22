@@ -12,9 +12,9 @@ module.exports = {
         light: {
           ...require('daisyui/src/colors/themes')['[data-theme=light]'],
           'base-100': 'hsl(210, 95%, 99%)',
-          'base-200': 'hsl(210, 75%, 83%)',
-          'base-300': 'hsl(213, 40%, 88%)',
-          info: 'hsl(214, 70%, 62%)',
+          'base-200': 'hsl(210, 75%, 93%)',
+          'base-300': 'hsl(213, 100%, 91%)',
+          info: 'hsl(214, 70%, 58%)',
         },
         night: {
           ...require('daisyui/src/colors/themes')['[data-theme=night]'],
