@@ -11,14 +11,14 @@ module.exports = {
       {
         light: {
           ...require('daisyui/src/colors/themes')['[data-theme=light]'],
-          'base-100': 'hsl(24, 100%, 98%)',
-          'base-200': 'hsl(20, 100%, 97%)',
-          'base-300': 'hsl(25, 75%, 89%)',
-          info: '#6f5e53',
+          'base-100': 'hsl(210, 95%, 99%)',
+          'base-200': 'hsl(210, 75%, 83%)',
+          'base-300': 'hsl(213, 40%, 88%)',
+          info: 'hsl(214, 70%, 62%)',
         },
         night: {
           ...require('daisyui/src/colors/themes')['[data-theme=night]'],
-          info: '#121212',
+          info: 'hsl(221, 48%, 4%)',
           'primary-content': '#B3C5EF',
         },
       },

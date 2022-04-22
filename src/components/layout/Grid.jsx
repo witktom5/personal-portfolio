@@ -20,9 +20,9 @@ function Grid({ children }) {
         aria-hidden='true'
       />
       <div className='drawer-content flex flex-col'>
-        <div className='bg-base-200 flex justify-center fixed right-4 w-screen z-10 opacity-95'>
+        <div className='bg-base-200 flex justify-center fixed navbar-position w-screen z-10 bg-opacity-80'>
           <div className='navbar w-full lg:w-3/5'>
-            <div className='flex-1 px-2 mx-2'>Portfolio</div>
+            <div className='flex-1 px-2 mx-2'>{/* PAGE TITLE OR STH */}</div>
             <div className='flex-none hidden md:block'>
               <ul className='menu menu-horizontal'>
                 <NavbarContent />
@@ -58,7 +58,7 @@ function Grid({ children }) {
       </div>
       <div className='drawer-side'>
         <label htmlFor='drawer-page' className='drawer-overlay'></label>
-        <ul className='menu pt-5 w-80 overflow-y-auto bg-base-100'>
+        <ul className='menu pt-5 w-60 overflow-y-auto bg-base-100'>
           <NavbarContent />
         </ul>
       </div>

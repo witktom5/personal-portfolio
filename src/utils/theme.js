@@ -16,6 +16,8 @@ function saveTheme() {
       window.matchMedia('(prefers-color-scheme: dark)').matches
     ) {
       setTheme('night');
+    } else {
+      setTheme('light');
     }
   }
 }

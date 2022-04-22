@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Grid from './components/layout/Grid';
-import Header from './components/layout/Header';
+import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
 import Footer from './components/layout/Footer';
 import About from './components/About/About';
