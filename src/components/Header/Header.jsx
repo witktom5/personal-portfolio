@@ -2,7 +2,7 @@ import HeaderIcon from './HeaderIcon';
 
 function Header() {
   return (
-    <div className='flex justify-center mt-navbar pb-48 sm:pb-72 lg:pb-52 2xl:pb-72 3xl:pb-80 wave wave-1'>
+    <div className='flex justify-center mt-header pb-48 sm:pb-72 lg:pb-52 2xl:pb-72 3xl:pb-80 wave wave-1'>
       <div className='hero pt-10 w-full lg:w-4/5  '>
         <header
           id='header'

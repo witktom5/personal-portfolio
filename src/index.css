@@ -2,35 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  scroll-behavior: smooth;
-  scroll-padding-top: 100px;
-}
-
 [data-theme='light'] body {
   background-color: hsl(0, 0%, 98%);
 }
 
-.mt-navbar {
+.navbar-position {
+  right: 15px;
+}
+
+.mt-header {
   margin-top: 64px;
 }
 
-.navbar-position {
-  right: 14px;
+[data-theme='light'] .main-img {
+  fill: hsl(214, 70%, 70%);
 }
-
-.card-project:nth-of-type(2n) {
-  flex-direction: row-reverse;
-}
-
-.card-body:nth-of-type(2n) {
-  flex-direction: column-reverse;
-}
-
-@media (min-width: 1536px) {
-  .card-project:nth-of-type(2n) {
-    flex-direction: column;
-  }
+[data-theme='night'] .main-img {
+  fill: hsl(214, 70%, 18%);
 }
 
 h1 {
@@ -62,10 +50,32 @@ h1 {
   );
 }
 
+.card-project {
+  border-radius: 6px;
+}
+
 .wave {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
+}
+
+.wave-2,
+.wave-3 {
+  width: 100%;
+  aspect-ratio: 960/140;
+}
+
+[data-theme='light'] .bg-about {
+  background-image: linear-gradient(
+    hsl(214, 55%, 58%),
+    hsl(214, 55%, 55%),
+    hsl(214, 55%, 52%),
+    hsl(214, 55%, 50%),
+    hsl(214, 55%, 52%),
+    hsl(214, 55%, 55%),
+    hsl(214, 55%, 58%)
+  );
 }
 
 [data-theme='light'] .wave-1 {
@@ -73,12 +83,6 @@ h1 {
 }
 [data-theme='night'] .wave-1 {
   background-image: url('./assets/wave1dark.svg');
-}
-
-.wave-2,
-.wave-3 {
-  width: 100%;
-  aspect-ratio: 960/140;
 }
 
 [data-theme='light'] .wave-2 {
@@ -95,15 +99,30 @@ h1 {
   background-image: url('./assets/wave3dark.svg');
 }
 
-[data-theme='light'] .main-img {
-  fill: hsl(214, 70%, 70%);
-}
-[data-theme='night'] .main-img {
-  fill: hsl(214, 70%, 18%);
+.blobs {
+  position: absolute;
+  width: 110vw;
+  left: -50px;
+  height: 200%;
+  top: -13%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  z-index: -1;
 }
 
-@media (min-width: 700px) {
-  .hamburger-menu {
-    display: none;
-  }
+[data-theme='light'] .blobs {
+  background-image: url('./assets/blobsLight.svg');
+}
+[data-theme='night'] .blobs {
+  background-image: url('./assets/blobsDark.svg');
+}
+
+div {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+.footer-title {
+  color: #000;
 }

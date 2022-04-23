@@ -4,10 +4,7 @@ import Project from './Project';
 function Projects() {
   return (
     <>
-      <section
-        className='flex justify-center bg-base-300 pt-6 lg:-mb-12 xl:-mb-16 2xl:-mb-32 3xl:-mb-40'
-        id='projects'
-      >
+      <section className='flex justify-center bg-base-300 pt-6' id='projects'>
         <div className='w-full lg:w-4/5 px-3'>
           <header>
             <h2 className='text-center text-4xl font-bold pb-24'>Projects</h2>

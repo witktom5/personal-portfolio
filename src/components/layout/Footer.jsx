@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className='mt-auto p-10 bg-base-200 flex justify-center'>
+    <footer className='mt-auto p-10 bg-base-300 flex justify-center shadow-inner'>
       <div className='w-full lg:w-4/5 text-base-content footer justify-between lg:justify-around'>
         <div>
           <span className='footer-title'>TW Webdev Portfolio</span>

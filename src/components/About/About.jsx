@@ -1,16 +1,19 @@
 function About() {
   return (
     <>
-      <section className='flex justify-center bg-info pb-14 pt-6' id='about'>
+      <section
+        className='flex justify-center bg-info pb-14 pt-6 relative bg-about'
+        id='about'
+      >
         <div className='w-full lg:w-3/5 px-3'>
           <header>
-            <h3 className='text-center text-4xl font-bold pb-24 text-primary-content'>
+            <h2 className='text-center text-4xl font-bold pb-24 text-primary-content'>
               About
-            </h3>
+            </h2>
           </header>
           <div className='card bg-base-100 shadow-xl'>
-            <div className='card-body px-3'>
-              <h2 className='card-title mb-5 text-2xl'>fsafasfas</h2>
+            <div className='card-body px-8'>
+              <h3 className='card-title mb-5 text-2xl'>fsafasfas</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptatibus similique reprehenderit veritatis, sed tempore
