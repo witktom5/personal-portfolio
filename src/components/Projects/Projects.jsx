@@ -14,6 +14,10 @@ function Projects() {
                 key={project.id}
                 title={project.title}
                 description={project.description}
+                seeMore={project.seeMore}
+                techs={project.techs}
+                gitUrl={project.gitUrl}
+                liveUrl={project.liveUrl}
               />
             ))}
           </div>

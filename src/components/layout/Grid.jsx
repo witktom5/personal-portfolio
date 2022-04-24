@@ -3,6 +3,7 @@ import { setTheme } from '../../utils/theme';
 import { FaRegLightbulb } from 'react-icons/fa';
 
 function Grid({ children }) {
+  // dark/light theme toggler handle
   const onClick = () => {
     if (document.documentElement.getAttribute('data-theme') === 'night') {
       setTheme('light');
@@ -12,6 +13,7 @@ function Grid({ children }) {
   };
 
   return (
+    //drawer comes from DaisyUI, lets me easily implement a sidebar for responsive
     <div className='drawer drawer-end'>
       <input
         id='drawer-page'
@@ -30,7 +32,7 @@ function Grid({ children }) {
             </div>
             <button
               aria-label='toggle dark mode'
-              className='btn btn-square btn-ghost bg-base-300 bg-opacity-80 mx-3 p-0 md:bg-transparent md:btn-outline md:btn-sm'
+              className='btn btn-square btn-ghost bg-base-300 border-accent border-opacity-10 bg-opacity-60 mx-3 p-0 md:bg-transparent md:btn-outline md:btn-sm'
               onClick={onClick}
             >
               <FaRegLightbulb className='h-4 w-4' />
@@ -38,7 +40,7 @@ function Grid({ children }) {
             <div className='flex-none md:hidden'>
               <label
                 htmlFor='drawer-page'
-                className='btn btn-square btn-ghost bg-base-300 bg-opacity-60'
+                className='btn btn-square btn-ghost bg-base-300 border-accent border-opacity-10 bg-opacity-60'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
