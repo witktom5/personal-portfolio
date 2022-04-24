@@ -81,7 +81,7 @@ function ContactForm() {
           required
         />
       </div>
-      <button type='submit' className='btn btn-wide flex mx-auto'>
+      <button type='submit' className='btn w-3/5 sm:btn-wide flex mx-auto'>
         Submit
       </button>
     </form>

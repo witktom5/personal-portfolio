@@ -20,7 +20,7 @@ const sass = { name: 'Sass', icon: <FaSass className='w-10 h-10' /> };
 const node = { name: 'NodeJS', icon: <FaNodeJs className='w-10 h-10' /> };
 const mongo = { name: 'MongoDB', icon: <SiMongodb className='w-10 h-10' /> };
 const bootstrap = {
-  name: 'Bootstrap',
+  name: 'Bootstrap 5',
   icon: <FaBootstrap className='w-10 h-10' />,
 };
 
@@ -47,11 +47,14 @@ const projectsData = [
     description: [
       'This is my first React App. It is a simple quiz with random words from Random Words API. It takes 4 random words and their definitions from API and makes one of the definitions a question.',
       'I used Bootstrap 5 with a tiny bit of Sass. I also used framer-motion for some little animations and react-icons',
+      'It is pretty colorful, there is a subtle gradient animation in the background. Correct answers in the quiz grant points. It has "streak" functionality - if you give two correct answers consecutively, you will gain more points for your next correct answer. You lose after 3 wrong answers.',
     ],
-    seeMore: [],
+    seeMore: [
+      'Can be improved by using more complex API, so word categories and difficulty levels could be added. There could also be a high score system. Overall there is a lot to potentially implement in this small app.',
+    ],
     liveUrl: 'https://sensational-haupia-506264.netlify.app/',
     gitUrl: 'https://github.com/witktom5/words-app',
-    techs: [html, css, js, react, sass],
+    techs: [html, css, js, react, sass, bootstrap],
   },
 ];
 

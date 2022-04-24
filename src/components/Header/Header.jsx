@@ -26,7 +26,7 @@ function Header() {
               </p>
             </div>
             <button className='btn btn-dark w-fit self-center lg:self-start'>
-              Get Started
+              My Resume
             </button>
           </div>
         </header>

@@ -18,7 +18,7 @@ function Project({ title, description, seeMore, techs, liveUrl, gitUrl }) {
               <p key={`p${id}`}>{paragraph}</p>
             ))}
             <div className='hidden lg:block'>{moreInfo}</div>
-            <Modal content={moreInfo} title={title} />
+            <Modal content={moreInfo} title={title} hide={true} />
           </div>
         </div>
         <div className='flex flex-col gap-3 justify-center xl:flex-row xl:justify-end 2xl:justify-between'>
