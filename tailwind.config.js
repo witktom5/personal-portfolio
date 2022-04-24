@@ -22,6 +22,7 @@ module.exports = {
           info: 'hsl(221, 48%, 4%)',
           primary: 'hsl(220, 50%, 30%)',
           'primary-content': '#B3C5EF',
+          'accent-content': '#000000',
         },
       },
     ],

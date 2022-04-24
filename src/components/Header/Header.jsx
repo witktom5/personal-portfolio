@@ -11,15 +11,15 @@ function Header() {
           <HeaderIcon />
           <div className='flex flex-col'>
             <div className='w-100 flex justify-center lg:justify-start'>
-              <h1 className='text-5xl w-fit font-bold mb-5 text-center lg:text-left leading-tight'>
+              <h1 className='text-5xl w-fit font-bold mb-1 text-center leading-tight lg:text-left lg:-ml-1'>
                 Tomasz Witkowski
               </h1>
             </div>
-            <h2 className='text-4xl font-bold text-center lg:text-left'>
+            <h2 className='text-4xl text-center lg:text-left font-normal sub-header'>
               Web Developer
             </h2>
             <div className='flex justify-center lg:justify-start py-8'>
-              <p className='w-4/5'>
+              <p className='w-4/5 font-normal'>
                 Provident cupiditate voluptatem et in. Quaerat fugiat ut
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.

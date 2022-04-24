@@ -30,13 +30,16 @@ function Grid({ children }) {
             </div>
             <button
               aria-label='toggle dark mode'
-              className='btn btn-sm btn-outline mx-3 p-0 w-8'
+              className='btn btn-square btn-ghost bg-base-300 bg-opacity-80 mx-3 p-0 md:bg-transparent md:btn-outline md:btn-sm'
               onClick={onClick}
             >
               <FaRegLightbulb className='h-4 w-4' />
             </button>
             <div className='flex-none md:hidden'>
-              <label htmlFor='drawer-page' className='btn btn-square btn-ghost'>
+              <label
+                htmlFor='drawer-page'
+                className='btn btn-square btn-ghost bg-base-300 bg-opacity-60'
+              >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   fill='none'

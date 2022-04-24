@@ -1,9 +1,9 @@
 function Project({ title, description }) {
   return (
-    <div className='card bg-base-100 shadow-lg card-project'>
+    <div className='card bg-base-100 shadow-lg card-project max-w-3xl mx-auto'>
       <div className='card-body flex-row xl:flex-col xl:justify-between xl:gap-4'>
         <div>
-          <h3 className='card-title mb-5 text-2xl'>{title}</h3>
+          <h3 className='card-title mb-5 text-xl font-bold'>{title}</h3>
           <p>{description}</p>
         </div>
         <div className='flex flex-col gap-3 justify-center xl:flex-row xl:justify-end 2xl:justify-between'>
@@ -18,6 +18,7 @@ function Project({ title, description }) {
           </a>
         </div>
       </div>
+      <div className='bg-accent max-h-20'>dasds</div>
     </div>
   );
 }

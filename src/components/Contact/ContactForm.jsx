@@ -43,7 +43,7 @@ function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
       <div className='form-control'>
-        <label htmlFor='name' className='label label-text text-lg'>
+        <label htmlFor='name' className='label label-text font-normal'>
           Your name
         </label>
         <input
@@ -56,7 +56,7 @@ function ContactForm() {
         />
       </div>
       <div className='form-control'>
-        <label htmlFor='email' className='label label-text text-lg'>
+        <label htmlFor='email' className='label label-text font-normal'>
           Your email
         </label>
         <input
@@ -69,7 +69,7 @@ function ContactForm() {
         />
       </div>
       <div className='form-control mb-7'>
-        <label htmlFor='message' className='label label-text text-lg'>
+        <label htmlFor='message' className='label label-text font-normal'>
           Your message
         </label>
         <textarea
@@ -78,6 +78,7 @@ function ContactForm() {
           id='message'
           name='message'
           rows='3'
+          required
         />
       </div>
       <button type='submit' className='btn btn-wide flex mx-auto'>
