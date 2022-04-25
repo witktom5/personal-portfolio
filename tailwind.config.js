@@ -17,6 +17,7 @@ module.exports = {
           info: 'hsl(214, 55%, 58%)',
           primary: 'hsl(214, 70%, 50%)',
           accent: 'hsl(250, 23%, 47%)',
+          secondary: 'hsl(250, 21%, 40%)',
         },
         night: {
           ...require('daisyui/src/colors/themes')['[data-theme=night]'],
@@ -24,6 +25,7 @@ module.exports = {
           primary: 'hsl(220, 50%, 30%)',
           'primary-content': '#B3C5EF',
           accent: 'hsl(220, 60%, 17%)',
+          secondary: 'hsl(220, 37%, 11%)',
         },
       },
     ],

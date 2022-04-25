@@ -1,5 +1,5 @@
 import Technology from './Technology';
-import Modal from './Modal';
+import Modal from '../layout/Modal';
 
 function Project({ title, description, seeMore, techs, liveUrl, gitUrl }) {
   //this is content of the modal thats visible on small resolutions

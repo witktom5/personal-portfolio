@@ -9,8 +9,11 @@ import {
   FaSass,
   FaNodeJs,
   FaBootstrap,
+  FaNpm,
+  FaGitAlt,
+  FaGithub,
 } from 'react-icons/fa';
-import { SiMongodb } from 'react-icons/si';
+import { SiMongodb, SiTailwindcss } from 'react-icons/si';
 
 const html = { name: 'HTML5', icon: <FaHtml5 className='w-10 h-10' /> };
 const css = { name: 'CSS3', icon: <FaCss3Alt className='w-10 h-10' /> };
@@ -23,7 +26,22 @@ const bootstrap = {
   name: 'Bootstrap 5',
   icon: <FaBootstrap className='w-10 h-10' />,
 };
-
+const tailwind = {
+  name: 'Tailwind CSS',
+  icon: <SiTailwindcss className='w-10 h-10' />,
+};
+const npm = {
+  name: 'NPM',
+  icon: <FaNpm className='w-10 h-10' />,
+};
+const git = {
+  name: 'Git',
+  icon: <FaGitAlt className='w-10 h-10' />,
+};
+const gitHub = {
+  name: 'GitHub',
+  icon: <FaGithub className='w-10 h-10' />,
+};
 const projectsData = [
   {
     id: 0,
@@ -56,6 +74,21 @@ const projectsData = [
     gitUrl: 'https://github.com/witktom5/words-app',
     techs: [html, css, js, react, sass, bootstrap],
   },
+];
+
+export const myTechs = [
+  html,
+  css,
+  js,
+  react,
+  node,
+  mongo,
+  sass,
+  bootstrap,
+  tailwind,
+  npm,
+  git,
+  gitHub,
 ];
 
 export default projectsData;

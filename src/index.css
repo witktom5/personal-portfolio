@@ -159,6 +159,14 @@ div {
   scroll-padding-top: 100px;
 }
 
+[data-theme='light'] .spinner {
+  content: url('./assets/spinner.svg');
+}
+
+[data-theme='night'] .spinner {
+  content: url('./assets/spinnerDark.svg');
+}
+
 .footer-title {
   opacity: 0.75;
 }
