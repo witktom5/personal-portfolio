@@ -30,13 +30,13 @@ function About() {
                 responsiveness and accessibility. And most importantly, I pay
                 attention to the details.
               </p>
-              <div className='flex  gap-5 mt-3 -mb-2'>
+              <div className='flex justify-center gap-5 mt-3 -mb-2'>
                 <a
                   href='https://www.linkedin.com/in/tomasz-witkowski-8a0743238/'
                   target='_blank'
                   rel='noreferrer'
                   aria-label='linkedin'
-                  className='btn btn-sm gap-2 normal-case w-3/12'
+                  className='btn gap-2 normal-case'
                 >
                   <FaLinkedin className='w-6 h-6' />
                   LinkedIn
@@ -46,7 +46,7 @@ function About() {
                   target='_blank'
                   rel='noreferrer'
                   aria-label='github'
-                  className='btn btn-sm w-3/12  gap-2 normal-case'
+                  className='btn gap-2 normal-case'
                 >
                   <FaGithub className='w-6 h-6' />
                   GitHub
