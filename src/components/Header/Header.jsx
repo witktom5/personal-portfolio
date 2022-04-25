@@ -30,7 +30,7 @@ function Header() {
               <button className='btn btn-dark w-fit '>My Resume</button>
               <div className='ml-auto flex gap-4'>
                 <a
-                  href='https://www.linkedin.com/in/tomasz-witkowski-8a0743238/'
+                  href='/'
                   target='_blank'
                   rel='noreferrer'
                   aria-label='linkedin'
