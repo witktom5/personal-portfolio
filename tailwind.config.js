@@ -18,6 +18,8 @@ module.exports = {
           primary: 'hsl(214, 70%, 50%)',
           accent: 'hsl(250, 23%, 47%)',
           secondary: 'hsl(250, 21%, 40%)',
+          success: 'hsl(120, 90%, 26%)',
+          error: 'hsl(0, 89%, 38%)',
         },
         night: {
           ...require('daisyui/src/colors/themes')['[data-theme=night]'],

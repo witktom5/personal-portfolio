@@ -6,6 +6,7 @@ function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
   const [message, setMessage] = useState({});
   const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
   const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
@@ -21,9 +22,10 @@ function ContactForm() {
         bottom: `I'll be in touch soon.`,
       });
     } catch (error) {
+      setIsError(true);
       setMessage({
         top: 'Oh no!',
-        bottom: `Something went wrong with the contact form.`,
+        bottom: `Something went wrong with the contact form. Try again later!`,
       });
     }
     setIsLoading(false);
@@ -48,7 +50,13 @@ function ContactForm() {
     return (
       <>
         <div className='card-title'>
-          <h3 className='w-fit mx-auto mb-8 pt-4'>Message sent</h3>
+          <h3
+            className={`w-fit mx-auto mb-8 pt-4 ${
+              isError ? 'text-error' : 'text-success'
+            }`}
+          >
+            {isError ? 'Error' : 'Message sent'}
+          </h3>
         </div>
         <div className='flex items-center flex-col'>
           <div className='text-3xl pb-6 pt-10 font-bold'>{message.top}</div>
