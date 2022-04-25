@@ -17,7 +17,7 @@ module.exports = {
           info: 'hsl(214, 55%, 58%)',
           primary: 'hsl(214, 70%, 50%)',
           accent: 'hsl(250, 23%, 47%)',
-          secondary: 'hsl(250, 21%, 40%)',
+          secondary: '#3d4451',
           success: 'hsl(120, 90%, 26%)',
           error: 'hsl(0, 89%, 38%)',
         },
