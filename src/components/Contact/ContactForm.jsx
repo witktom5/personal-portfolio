@@ -51,7 +51,7 @@ function ContactForm() {
       <>
         <div className='card-title'>
           <h3
-            className={`w-fit mx-auto mb-8 pt-4 ${
+            className={`w-fit mx-auto text-2xl font-bold mb-8 pt-4 ${
               isError ? 'text-error' : 'text-success'
             }`}
           >
@@ -59,7 +59,7 @@ function ContactForm() {
           </h3>
         </div>
         <div className='flex items-center flex-col'>
-          <div className='text-3xl pb-6 pt-10 font-bold'>{message.top}</div>
+          <div className='text-2xl pb-6 pt-10 font-semibold'>{message.top}</div>
           <div className='text-xl pb-10 font-medium'>{message.bottom}</div>
         </div>
       </>
