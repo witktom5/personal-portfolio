@@ -2,6 +2,7 @@ import SectionHeader from '../layout/SectionHeader';
 import Technology from '../Projects/Technology';
 import AboutCard from './AboutCard';
 import { myTechs } from '../../utils/projectsData';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function About() {
   return (
@@ -12,12 +13,48 @@ function About() {
       >
         <div className='w-full lg:w-4/5 px-3'>
           <SectionHeader title='About' alternateColor />
-          <div className='flex flex-col lg:flex-row justify-evenly gap-5'>
-            <AboutCard title='Who I am'>
-              <p>Hey</p>
+          <div className='grid px-1 sm:px-5 grid-cols-1 lg:grid-cols-2 justify-evenly gap-10'>
+            <AboutCard title='Who I Am'>
+              <p>
+                Self-taught Web Developer based in Poland. Currently looking for
+                opportunities to start a professional career in software
+                development. I really enjoy creating various things. I have been
+                interested in computer technologies since the earliest years of
+                my life. In late 2021 I finally decided to learn how to code.
+              </p>
+              <p>
+                I really like the feeling when I'm doing something that's
+                challenging to me and I figure it out. Coding quickly became my
+                passion and I'm improving every day as I learn new technologies
+                and build my own projects. I pay great attention to
+                responsiveness and accessibility. And most importantly, I pay
+                attention to the details.
+              </p>
+              <div className='flex justify-center gap-5 mt-3'>
+                <a
+                  href='https://www.linkedin.com/in/tomasz-witkowski-8a0743238/'
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='linkedin'
+                  className='btn gap-2 normal-case'
+                >
+                  <FaLinkedin className='w-7 h-7' />
+                  LinkedIn
+                </a>
+                <a
+                  href='https://github.com/witktom5/'
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='github'
+                  className='btn gap-2 normal-case'
+                >
+                  <FaGithub className='w-7 h-7' />
+                  GitHub
+                </a>
+              </div>
             </AboutCard>
             <AboutCard title='Technologies I use'>
-              <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-5'>
+              <div className='grid grid-cols-3 sm:grid-cols-4  md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-auto'>
                 {myTechs.map((tech, id) => (
                   <Technology
                     key={`tech${id}`}

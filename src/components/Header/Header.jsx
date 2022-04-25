@@ -26,16 +26,16 @@ function Header() {
                 bringing my own ideas to life.
               </p>
             </div>
-            <div className='self-center lg:self-start flex gap-14 items-center'>
+            <div className='self-center lg:self-start flex gap-12 items-center'>
               <button className='btn btn-dark w-fit '>My Resume</button>
-              <div className='ml-auto flex gap-2'>
+              <div className='ml-auto flex gap-4'>
                 <a
                   href='https://www.linkedin.com/in/tomasz-witkowski-8a0743238/'
                   target='_blank'
                   rel='noreferrer'
                   aria-label='linkedin'
                 >
-                  <FaLinkedin className='w-10 h-10 transition hover:text-primary-focus hover:scale-110' />
+                  <FaLinkedin className='w-9 h-9 transition hover:text-primary-focus hover:scale-110' />
                 </a>
                 <a
                   href='https://github.com/witktom5/'
@@ -43,7 +43,7 @@ function Header() {
                   rel='noreferrer'
                   aria-label='github'
                 >
-                  <FaGithub className='w-10 h-10 transition hover:text-primary-focus hover:scale-110' />
+                  <FaGithub className='w-9 h-9 transition hover:text-primary-focus hover:scale-110' />
                 </a>
               </div>
             </div>
