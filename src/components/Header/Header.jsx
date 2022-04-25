@@ -20,9 +20,9 @@ function Header() {
             </h2>
             <div className='flex justify-center lg:justify-start py-8'>
               <p className='w-4/5 font-normal'>
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
+                I'm a Web Developer based in Poland. My current goal is to build
+                a professional career as a coder. I like learning new things and
+                bringing my own ideas to life.
               </p>
             </div>
             <button className='btn btn-dark w-fit self-center lg:self-start'>
