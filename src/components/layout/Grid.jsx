@@ -26,7 +26,7 @@ function Grid({ children }) {
           <div className='navbar w-full lg:w-3/5'>
             <div className='flex-1'></div>
             <div className='flex-none hidden md:block'>
-              <ul className='menu menu-horizontal items-center'>
+              <nav className='menu menu-horizontal items-center'>
                 <NavbarContent />
                 <button
                   aria-label='toggle dark mode'
@@ -35,7 +35,7 @@ function Grid({ children }) {
                 >
                   <FaRegLightbulb className='h-4 w-4' />
                 </button>
-              </ul>
+              </nav>
             </div>
 
             <div className='flex-none md:hidden'>
@@ -64,7 +64,7 @@ function Grid({ children }) {
       </div>
       <div className='drawer-side'>
         <label htmlFor='drawer-page' className='drawer-overlay'></label>
-        <ul className='menu pt-5 w-60 overflow-y-auto bg-base-100'>
+        <nav className='menu pt-5 w-60 overflow-y-auto bg-base-100'>
           <NavbarContent />
           <button
             aria-label='toggle dark mode'
@@ -73,7 +73,7 @@ function Grid({ children }) {
           >
             <FaRegLightbulb className='h-4 w-4' />
           </button>
-        </ul>
+        </nav>
       </div>
     </div>
   );

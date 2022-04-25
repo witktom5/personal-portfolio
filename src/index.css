@@ -8,7 +8,12 @@
 }
 
 .mt-header {
-  margin-top: 64px;
+  margin-top: 50px;
+}
+
+.nav-menu {
+  display: inherit;
+  flex-direction: inherit;
 }
 
 [data-theme='light'] .main-img {

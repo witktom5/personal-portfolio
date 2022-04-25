@@ -1,6 +1,6 @@
 function NavbarContent() {
   return (
-    <>
+    <ul className='nav-menu'>
       <li>
         <a href='#projects' className='btn btn-ghost rounded-lg'>
           Projects
@@ -16,7 +16,7 @@ function NavbarContent() {
           Contact
         </a>
       </li>
-    </>
+    </ul>
   );
 }
 export default NavbarContent;
