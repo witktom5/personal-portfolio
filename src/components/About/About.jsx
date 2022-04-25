@@ -11,7 +11,7 @@ function About() {
         className='flex justify-center bg-info pb-14 relative bg-about'
         id='about'
       >
-        <div className='w-full lg:w-4/5 px-3'>
+        <div className='w-full lg:w-full 2xl:w-5/6 px-3'>
           <SectionHeader title='About' alternateColor />
           <div className='grid px-1 sm:px-5 grid-cols-1 lg:grid-cols-2 justify-evenly gap-10'>
             <AboutCard title='Who I Am'>
@@ -30,15 +30,15 @@ function About() {
                 responsiveness and accessibility. And most importantly, I pay
                 attention to the details.
               </p>
-              <div className='flex justify-center gap-5 mt-3'>
+              <div className='flex  gap-5 mt-3 -mb-2'>
                 <a
                   href='https://www.linkedin.com/in/tomasz-witkowski-8a0743238/'
                   target='_blank'
                   rel='noreferrer'
                   aria-label='linkedin'
-                  className='btn gap-2 normal-case'
+                  className='btn btn-sm gap-2 normal-case w-3/12'
                 >
-                  <FaLinkedin className='w-7 h-7' />
+                  <FaLinkedin className='w-6 h-6' />
                   LinkedIn
                 </a>
                 <a
@@ -46,15 +46,15 @@ function About() {
                   target='_blank'
                   rel='noreferrer'
                   aria-label='github'
-                  className='btn gap-2 normal-case'
+                  className='btn btn-sm w-3/12  gap-2 normal-case'
                 >
-                  <FaGithub className='w-7 h-7' />
+                  <FaGithub className='w-6 h-6' />
                   GitHub
                 </a>
               </div>
             </AboutCard>
             <AboutCard title='Technologies I use'>
-              <div className='grid grid-cols-3 sm:grid-cols-4  md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-auto'>
+              <div className='grid grid-cols-3 sm:grid-cols-4  md:grid-cols-6 lg:grid-cols-3 xl:grid-cols-4 gap-5 my-auto'>
                 {myTechs.map((tech, id) => (
                   <Technology
                     key={`tech${id}`}
