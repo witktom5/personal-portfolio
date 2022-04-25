@@ -22,25 +22,26 @@ function Grid({ children }) {
         aria-hidden='true'
       />
       <div className='drawer-content flex flex-col'>
-        <div className='bg-base-200 flex justify-center fixed navbar-position w-screen z-10 bg-opacity-0 md:bg-opacity-80'>
+        <div className='bg-base-200 flex justify-center fixed navbar-position w-screen z-10 bg-opacity-80'>
           <div className='navbar w-full lg:w-3/5'>
             <div className='flex-1'></div>
             <div className='flex-none hidden md:block'>
-              <ul className='menu menu-horizontal'>
+              <ul className='menu menu-horizontal items-center'>
                 <NavbarContent />
+                <button
+                  aria-label='toggle dark mode'
+                  className='btn btn-square btn-ghost bg-opacity-80 bg-transparent btn-sm'
+                  onClick={onClick}
+                >
+                  <FaRegLightbulb className='h-4 w-4' />
+                </button>
               </ul>
             </div>
-            <button
-              aria-label='toggle dark mode'
-              className='btn btn-square btn-ghost bg-base-300 border-accent border-opacity-10 bg-opacity-60 mx-3 p-0 md:bg-transparent md:btn-outline md:btn-sm'
-              onClick={onClick}
-            >
-              <FaRegLightbulb className='h-4 w-4' />
-            </button>
+
             <div className='flex-none md:hidden'>
               <label
                 htmlFor='drawer-page'
-                className='btn btn-square btn-ghost bg-base-300 border-accent border-opacity-10 bg-opacity-60'
+                className='btn btn-square btn-ghost bg-opacity-60 mr-3'
               >
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -65,6 +66,13 @@ function Grid({ children }) {
         <label htmlFor='drawer-page' className='drawer-overlay'></label>
         <ul className='menu pt-5 w-60 overflow-y-auto bg-base-100'>
           <NavbarContent />
+          <button
+            aria-label='toggle dark mode'
+            className='btn w-5/6 mx-auto bg-opacity-80 mt-auto mb-3'
+            onClick={onClick}
+          >
+            <FaRegLightbulb className='h-4 w-4' />
+          </button>
         </ul>
       </div>
     </div>
