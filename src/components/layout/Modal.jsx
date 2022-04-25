@@ -33,9 +33,9 @@ function Modal({ title, content, hide }) {
         ref={dialogEl}
         className='dialog rounded-box bg-base-100 text-base-content'
       >
-        <div className='flex flex-col gap-2 p-5'>
+        <div className='flex flex-col gap-2 px-5 pt-5 pb-3'>
           <div className='flex'>
-            <h4 className='text-xl pb-3 w-fit font-semibold'>
+            <h4 className='text-xl pb-5 w-fit font-semibold'>
               More info about {title}
             </h4>
             <button
