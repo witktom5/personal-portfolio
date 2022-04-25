@@ -22,7 +22,7 @@ function Grid({ children }) {
         aria-hidden='true'
       />
       <div className='drawer-content flex flex-col'>
-        <div className='bg-base-200 flex justify-center fixed navbar-position w-screen z-10 bg-opacity-80'>
+        <div className='bg-base-200 flex justify-center sticky top-0 w-full z-50 bg-opacity-80'>
           <div className='navbar w-full lg:w-3/5'>
             <div className='flex-1'></div>
             <div className='flex-none hidden md:block'>
