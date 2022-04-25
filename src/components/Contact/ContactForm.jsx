@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import Spinner from '../layout/Spinner';
+import Spinner from '../shared/Spinner';
 
 function ContactForm() {
   const [submitted, setSubmitted] = useState(false);

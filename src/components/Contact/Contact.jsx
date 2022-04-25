@@ -1,6 +1,6 @@
 import SectionHeader from '../layout/SectionHeader';
 import ContactForm from './ContactForm';
-import Modal from '../layout/Modal';
+import Modal from '../shared/Modal';
 
 function Contact() {
   return (

@@ -13,7 +13,7 @@ function About() {
         <div className='w-full lg:w-4/5 px-3'>
           <SectionHeader title='About' alternateColor />
           <div className='flex flex-col lg:flex-row justify-evenly gap-5'>
-            <AboutCard title="I'm Tomasz">
+            <AboutCard title='Who I am'>
               <p>Hey</p>
             </AboutCard>
             <AboutCard title='Technologies I use'>

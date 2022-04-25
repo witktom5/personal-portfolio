@@ -1,4 +1,5 @@
 import HeaderIcon from './HeaderIcon';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 function Header() {
   return (
@@ -25,9 +26,27 @@ function Header() {
                 bringing my own ideas to life.
               </p>
             </div>
-            <button className='btn btn-dark w-fit self-center lg:self-start'>
-              My Resume
-            </button>
+            <div className='self-center lg:self-start flex gap-14 items-center'>
+              <button className='btn btn-dark w-fit '>My Resume</button>
+              <div className='ml-auto flex gap-2'>
+                <a
+                  href='https://www.linkedin.com/in/tomasz-witkowski-8a0743238/'
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='linkedin'
+                >
+                  <FaLinkedin className='w-10 h-10 transition hover:text-primary-focus hover:scale-110' />
+                </a>
+                <a
+                  href='https://github.com/witktom5/'
+                  target='_blank'
+                  rel='noreferrer'
+                  aria-label='github'
+                >
+                  <FaGithub className='w-10 h-10 transition hover:text-primary-focus hover:scale-110' />
+                </a>
+              </div>
+            </div>
           </div>
         </header>
       </div>
