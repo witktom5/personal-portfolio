@@ -125,6 +125,10 @@ h1 {
   );
 }
 
+[data-theme='light'] .bg-about-card {
+  background-color: hsl(216, 100%, 97%);
+}
+
 [data-theme='light'] .wave-1 {
   background-image: url('./assets/wave1light.svg');
 }
