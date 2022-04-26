@@ -130,24 +130,24 @@ h1 {
 }
 
 [data-theme='light'] .wave-1 {
-  background-image: url('./assets/wave1light.svg');
+  background-image: url('./assets/svg/wave1light.svg');
 }
 [data-theme='night'] .wave-1 {
-  background-image: url('./assets/wave1dark.svg');
+  background-image: url('./assets/svg/wave1dark.svg');
 }
 
 [data-theme='light'] .wave-2 {
-  background-image: url('./assets/wave2light.svg');
+  background-image: url('./assets/svg/wave2light.svg');
 }
 [data-theme='night'] .wave-2 {
-  background-image: url('./assets/wave2dark.svg');
+  background-image: url('./assets/svg/wave2dark.svg');
 }
 
 [data-theme='light'] .wave-3 {
-  background-image: url('./assets/wave3light.svg');
+  background-image: url('./assets/svg/wave3light.svg');
 }
 [data-theme='night'] .wave-3 {
-  background-image: url('./assets/wave3dark.svg');
+  background-image: url('./assets/svg/wave3dark.svg');
 }
 
 .blobs {
@@ -163,10 +163,10 @@ h1 {
 }
 
 [data-theme='light'] .blobs {
-  background-image: url('./assets/blobsLight.svg');
+  background-image: url('./assets/svg/blobsLight.svg');
 }
 [data-theme='night'] .blobs {
-  background-image: url('./assets/blobsDark.svg');
+  background-image: url('./assets/svg/blobsDark.svg');
 }
 
 div {
@@ -175,11 +175,11 @@ div {
 }
 
 [data-theme='light'] .spinner {
-  content: url('./assets/spinner.svg');
+  content: url('./assets/svg/spinner.svg');
 }
 
 [data-theme='night'] .spinner {
-  content: url('./assets/spinnerDark.svg');
+  content: url('./assets/svg/spinnerDark.svg');
 }
 
 .footer-title {

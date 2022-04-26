@@ -1,6 +1,7 @@
 import NavbarContent from './NavbarContent';
 import { setTheme } from '../../utils/theme';
 import { FaRegLightbulb } from 'react-icons/fa';
+import Preload from './Preload';
 
 function Grid({ children }) {
   // dark/light theme toggler handle
@@ -75,6 +76,7 @@ function Grid({ children }) {
           </button>
         </nav>
       </div>
+      <Preload />
     </div>
   );
 }
