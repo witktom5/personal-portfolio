@@ -11,6 +11,12 @@
   margin-top: 50px;
 }
 
+@media (max-width: 640px) {
+  .mt-header {
+    margin-top: 0px;
+  }
+}
+
 .nav-menu {
   display: inherit;
   flex-direction: inherit;
