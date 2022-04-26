@@ -11,6 +11,7 @@ function App() {
   useEffect(() => {
     saveTheme();
   });
+
   return (
     <Grid>
       <main>
