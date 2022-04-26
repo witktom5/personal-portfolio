@@ -69,7 +69,7 @@ function ContactForm() {
   return (
     <>
       <div className='card-title'>
-        <h3 className='w-fit mx-auto mb-8 pt-4'>Send me a message</h3>
+        <h3 className='w-fit mx-auto mb-8 pt-4 text-2xl'>Send me a message</h3>
       </div>
       <form onSubmit={handleSubmit}>
         <div className='form-control'>

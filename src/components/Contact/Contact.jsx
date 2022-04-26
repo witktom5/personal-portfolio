@@ -10,8 +10,8 @@ function Contact() {
     >
       <div className='w-full lg:w-4/5 px-3'>
         <SectionHeader title='Contact' />
-        <div className='card bg-base-300 mx-auto shadow-lg w-full max-w-xl bg-opacity-80'>
-          <div className='card-body mx-auto w-full md:max-w-lg pb-2'>
+        <div className='card bg-base-300 mx-auto shadow-lg w-full max-w-xl bg-opacity-80 card-contact'>
+          <div className='card-body mx-auto w-full md:max-w-lg pb-2 justify-between'>
             <ContactForm />
             <Modal
               className='ml-auto'

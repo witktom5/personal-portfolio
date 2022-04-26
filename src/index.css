@@ -39,6 +39,10 @@ h3 {
   font-family: 'Inter';
 }
 
+.card-contact {
+  min-height: 582px;
+}
+
 [data-theme='light'] .section-header,
 [data-theme='light'] .sub-header {
   color: hsla(225, 33%, 20%, 0.9);
