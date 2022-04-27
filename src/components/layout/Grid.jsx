@@ -1,3 +1,4 @@
+import Preload from './Preload';
 import NavbarContent from './NavbarContent';
 import { setTheme } from '../../utils/theme';
 import { FaRegLightbulb } from 'react-icons/fa';
@@ -15,6 +16,7 @@ function Grid({ children }) {
   return (
     //drawer comes from DaisyUI, lets me easily implement a sidebar for responsive
     <div className='drawer drawer-end'>
+      <Preload />
       <input
         id='drawer-page'
         type='checkbox'

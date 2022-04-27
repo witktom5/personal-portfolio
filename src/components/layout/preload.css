@@ -1,0 +1,31 @@
+/*preload both dark and light mode svg*/
+.preload-1 {
+  background-image: url('../../assets/svg/blobsDark.svg');
+}
+.preload-2 {
+  background-image: url('../../assets/svg/blobsLight.svg');
+}
+.preload-3 {
+  background-image: url('../../assets/svg/wave1dark.svg');
+}
+.preload-4 {
+  background-image: url('../../assets/svg/wave1light.svg');
+}
+.preload-5 {
+  background-image: url('../../assets/svg/wave2dark.svg');
+}
+.preload-6 {
+  background-image: url('../../assets/svg/wave2light.svg');
+}
+.preload-7 {
+  background-image: url('../../assets/svg/wave3dark.svg');
+}
+.preload-8 {
+  background-image: url('../../assets/svg/wave3light.svg');
+}
+.preload-9 {
+  background-image: url('../../assets/svg/spinner.svg');
+}
+.preload-10 {
+  background-image: url('../../assets/svg/spinnerDark.svg');
+}
