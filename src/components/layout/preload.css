@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@600;700;900&display=swap');
 /*preload both dark and light mode svg*/
 .preload-1 {
   background-image: url('../../assets/svg/blobsDark.svg');
