@@ -66,11 +66,11 @@ function Grid({ children }) {
       </div>
       <div className='drawer-side'>
         <label htmlFor='drawer-page' className='drawer-overlay'></label>
-        <nav className='menu pt-5 w-60 overflow-y-auto bg-base-100'>
+        <nav className='menu pt-9 w-60 overflow-y-auto bg-base-100'>
           <NavbarContent />
           <button
             aria-label='toggle dark mode'
-            className='btn w-5/6 mx-auto bg-opacity-80 mt-auto mb-3'
+            className='btn w-5/6 mx-auto bg-opacity-80 mt-auto mb-16'
             onClick={onClick}
           >
             <FaRegLightbulb className='h-4 w-4' />
