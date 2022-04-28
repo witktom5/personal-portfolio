@@ -41,7 +41,7 @@ function Project({ title, description, seeMore, techs, liveUrl, gitUrl }) {
         </div>
       </div>
       <div className='bg-accent xl:order-first'>
-        <div className='flex flex-wrap p-2 gap-6 justify-evenly xl:flex-col h-full'>
+        <div className='flex flex-wrap p-2 py-4 xl:px-4 xl:py-2 gap-6 justify-evenly xl:flex-col h-full'>
           {techs.map((tech, id) => (
             <Technology name={tech.name} icon={tech.icon} key={id} />
           ))}
