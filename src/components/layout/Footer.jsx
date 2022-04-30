@@ -22,7 +22,12 @@ function Footer() {
         <div>
           <span className='footer-title'>Social</span>
           <div className='grid grid-flow-col gap-4'>
-            <a href='/' target='_blank' rel='noreferrer' aria-label='linkedin'>
+            <a
+              href='https://www.linkedin.com/in/witkowski-tomasz/'
+              target='_blank'
+              rel='noreferrer'
+              aria-label='linkedin'
+            >
               <FaLinkedin className='w-8 h-8 transition hover:text-primary-content hover:scale-110' />
             </a>
             <a

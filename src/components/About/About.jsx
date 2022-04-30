@@ -32,7 +32,7 @@ function About() {
               </p>
               <div className='flex justify-center gap-5 mt-3 -mb-2'>
                 <a
-                  href='/'
+                  href='https://www.linkedin.com/in/witkowski-tomasz/'
                   target='_blank'
                   rel='noreferrer'
                   aria-label='linkedin'
