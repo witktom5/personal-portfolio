@@ -39,7 +39,7 @@ h3 {
 }
 
 .card-contact {
-  min-height: 582px;
+  min-height: 538px;
 }
 
 [data-theme='light'] .section-header,
@@ -170,7 +170,7 @@ h1 {
 
 div {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  scroll-padding-top: 50px;
 }
 
 [data-theme='light'] .spinner {

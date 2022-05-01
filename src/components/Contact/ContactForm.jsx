@@ -37,7 +37,7 @@ function ContactForm() {
     return (
       <>
         <div className='card-title'>
-          <h3 className='w-fit mx-auto mb-8 pt-4'>Sending your message...</h3>
+          <h3 className='w-fit mx-auto mb-4 pt-4'>Sending your message...</h3>
         </div>
         <div className='flex items-center flex-col'>
           <Spinner />
@@ -51,7 +51,7 @@ function ContactForm() {
       <>
         <div className='card-title'>
           <h3
-            className={`w-fit mx-auto text-2xl font-bold mb-8 pt-4 ${
+            className={`w-fit mx-auto text-2xl font-bold mb-4 pt-4 ${
               isError ? 'text-error' : 'text-success'
             }`}
           >
@@ -69,7 +69,7 @@ function ContactForm() {
   return (
     <>
       <div className='card-title'>
-        <h3 className='w-fit mx-auto mb-8 pt-4 text-2xl'>Send me a message</h3>
+        <h3 className='w-fit mx-auto mb-4 pt-4 text-2xl'>Send me a message</h3>
       </div>
       <form onSubmit={handleSubmit}>
         <div className='form-control'>
@@ -98,7 +98,7 @@ function ContactForm() {
             required
           />
         </div>
-        <div className='form-control mb-7'>
+        <div className='form-control mb-6'>
           <label htmlFor='message' className='label label-text font-normal'>
             Your message
           </label>

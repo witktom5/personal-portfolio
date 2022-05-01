@@ -26,13 +26,17 @@ function Grid({ children }) {
       <div className='drawer-content flex flex-col'>
         <div className='bg-base-200 flex justify-center sticky top-0 w-full z-50 bg-opacity-80'>
           <div className='navbar w-full lg:w-3/5'>
-            <div className='flex-1'></div>
+            <div className='flex-1'>
+              <a href='#header' className='btn btn-ghost opacity-70'>
+                TW
+              </a>
+            </div>
             <div className='flex-none hidden md:block'>
               <nav className='menu menu-horizontal items-center'>
                 <NavbarContent />
                 <button
                   aria-label='toggle dark mode'
-                  className='btn btn-square btn-ghost bg-opacity-80 bg-transparent btn-sm'
+                  className='btn btn-square btn-ghost'
                   onClick={onClick}
                 >
                   <FaRegLightbulb className='h-4 w-4' />
