@@ -38,6 +38,11 @@ h3 {
   font-family: 'Inter';
 }
 
+.drawer {
+  height: auto;
+  width: auto;
+}
+
 .card-contact {
   min-height: 538px;
 }
