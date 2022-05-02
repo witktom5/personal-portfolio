@@ -170,7 +170,6 @@ h1 {
 
 div {
   scroll-behavior: smooth;
-  scroll-padding-top: 50px;
 }
 
 [data-theme='light'] .spinner {
