@@ -7,7 +7,7 @@ function saveTheme() {
   if (localStorage.getItem('theme')) {
     if (localStorage.getItem('theme') === 'night') {
       setTheme('night');
-    } else if (localStorage.getItem('theme') === 'light') {
+    } else {
       setTheme('light');
     }
   } else {

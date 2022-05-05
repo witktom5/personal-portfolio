@@ -74,6 +74,34 @@ const projectsData = [
     gitUrl: 'https://github.com/witktom5/words-app',
     techs: [html, css, js, react, sass, bootstrap],
   },
+  {
+    id: 2,
+    title: 'TV Show Finder',
+    description: [
+      'A webapp that fetches TV show data from two APIs: TV API (TVmaze) & TV Shows API (EpisoDate) and displays the data. It allows to search for TV shows by their titles (with the use of TVmaze), and it also displays 5 most popular shows according to EpisoDate.',
+      'It is responsive and comes with a togglable dark mode.',
+    ],
+    seeMore: [
+      'React 18 with React Router v6 were used as the front-end framework. Axios was used to handle fetch requests from the API.',
+      'Tailwind and DaisyUI as well as some custom CSS were used for the UI. There is also a few icons from Font Awesome (react-icons/fa).',
+    ],
+    liveUrl: 'https://tvshow-finder.netlify.app',
+    gitUrl: 'https://github.com/witktom5/tv-app',
+    techs: [html, css, js, react, tailwind],
+  },
+
+  {
+    id: 3,
+    title: 'Tetris',
+    description: [
+      `My first attempt at creating a game. It's a clone of the legendary video game of the same name. Main rules are pretty much the same. You gain points and progress through levels (which just increases the game speed). More rows filled at once means more points. You can restart or pause the game (it also pauses/unpauses itself when window loses/gains focus, for example if you go on another tab in your browser).`,
+      'It was made with just HTML5, vanilla JavaScript and pure CSS3.',
+    ],
+    seeMore: [],
+    liveUrl: 'https://witktom5.github.io/tetris/',
+    gitUrl: 'https://github.com/witktom5/tetris',
+    techs: [html, css, js, react, sass, bootstrap],
+  },
 ];
 
 export const myTechs = [

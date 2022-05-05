@@ -4,9 +4,7 @@ import Modal from '../shared/Modal';
 function Project({ title, description, seeMore, techs, liveUrl, gitUrl }) {
   //this is content of the modal thats visible on small resolutions
   //its here so i can just map once and reuse outside modal on larger screen
-  const moreInfo = seeMore.map((paragraph, id) => (
-    <p key={`s${id}`}>{paragraph}</p>
-  ));
+  const moreInfo = seeMore.map((paragraph, id) => <p key={id}>{paragraph}</p>);
 
   return (
     <div className='card bg-base-100 shadow-lg card-project max-w-3xl lg:max-w-full mx-auto flex xl:flex-row'>
@@ -15,10 +13,14 @@ function Project({ title, description, seeMore, techs, liveUrl, gitUrl }) {
           <h3 className='card-title text-xl font-bold mb-6'>{title}</h3>
           <div className='my-auto flex flex-col gap-3'>
             {description.map((paragraph, id) => (
-              <p key={`p${id}`}>{paragraph}</p>
+              <p key={id}>{paragraph}</p>
             ))}
-            <div className='hidden lg:block'>{moreInfo}</div>
-            <Modal content={moreInfo} title={title} hide={true} />
+            {moreInfo.length > 0 ? (
+              <>
+                <div className='hidden lg:block'>{moreInfo}</div>
+                <Modal content={moreInfo} title={title} hide={true} />
+              </>
+            ) : null}
           </div>
         </div>
         <div className='flex flex-col gap-3 justify-center xl:flex-row xl:justify-end 2xl:justify-between'>
