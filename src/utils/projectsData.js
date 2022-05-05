@@ -70,7 +70,7 @@ const projectsData = [
     seeMore: [
       'Can be improved by using more complex API, so word categories and difficulty levels could be added. There could also be a high score system. Overall there is a lot to potentially implement in this small app.',
     ],
-    liveUrl: 'https://sensational-haupia-506264.netlify.app/',
+    liveUrl: 'https://quiz-words.netlify.app',
     gitUrl: 'https://github.com/witktom5/words-app',
     techs: [html, css, js, react, sass, bootstrap],
   },
