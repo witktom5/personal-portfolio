@@ -100,7 +100,7 @@ const projectsData = [
     seeMore: [],
     liveUrl: 'https://witktom5.github.io/tetris/',
     gitUrl: 'https://github.com/witktom5/tetris',
-    techs: [html, css, js, react, sass, bootstrap],
+    techs: [html, css, js],
   },
 ];
 
