@@ -27,7 +27,13 @@ function Header() {
               </p>
             </div>
             <div className='self-center lg:self-start flex gap-12 items-center'>
-              <button className='btn btn-dark w-fit '>My Resume</button>
+              <a
+                href='/resume/tomasz-witkowski-resume.pdf'
+                target='_blank'
+                className='btn btn-dark w-fit '
+              >
+                My Resume
+              </a>
               <div className='ml-auto flex gap-4'>
                 <a
                   href='https://www.linkedin.com/in/witkowski-tomasz/'

@@ -16,6 +16,15 @@ function NavbarContent() {
           Contact
         </a>
       </li>
+      <li>
+        <a
+          href='/resume/tomasz-witkowski-resume.pdf'
+          target='_blank'
+          className='btn btn-ghost rounded-lg'
+        >
+          Get Resume
+        </a>
+      </li>
     </ul>
   );
 }
